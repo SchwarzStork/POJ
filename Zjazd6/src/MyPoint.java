@@ -1,7 +1,3 @@
-/*
-Autorzy: Aleksander Mojzych, Adrian Matyszczak 11.05.2019
- */
-
 public class MyPoint {
     private int x = 0;
     private int y = 0;

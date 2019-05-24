@@ -1,5 +1,5 @@
 /*
-Autorzy: Aleksander Mojzych, Adrian Matyszczak 11.05.2019
+Autorzy: Aleksander Mojzych, Adrian Matyszczak 25.05.2019
  */
 
 public class MyCircle {
@@ -59,7 +59,7 @@ public class MyCircle {
     }
 
     public void setCenterXY(int x, int y){
-       this.center.setXY(x, y);
+        this.center.setXY(x, y);
     }
 
     public String toString(){
@@ -70,11 +70,11 @@ public class MyCircle {
         return Math.PI * radius * radius;
     }
 
-    public double getCircumerence(){
+    public double getCircumference(){
         return Math.PI * 2 * radius;
     }
 
     public double distance(MyCircle another){
-
+        return center.distance(another.center);
     }
 }
