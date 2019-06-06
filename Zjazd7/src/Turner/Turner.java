@@ -2,8 +2,8 @@
 Autorzy: Aleksander Mojzych, Artur Dembicki  07.06.2019
  */
 
-package Runner;
+package Turner;
 
-public interface Runner {
-    void run();
+public interface Turner {
+    void turn();
 }
